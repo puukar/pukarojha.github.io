@@ -1,0 +1,90 @@
+.shell {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.header1 {
+  line-height: 1.6;
+  font-size: 3rem;
+  font-family: monospace;
+  max-width: 70ch;
+  margin: 1rem 0 0;
+  color: white;
+}
+
+.header2 {
+  line-height: 1.6;
+  font-size: 1.7rem;
+  max-width: 70ch;
+  margin: 1rem 0 0;
+  color: white;
+  font-family: monospace;
+}
+
+.header3 {
+  line-height: 1.6;
+  font-size: 1.5rem;
+  max-width: 70ch;
+  margin: 1rem 0 0;
+  color: white;
+}
+
+.link-github {
+  color: #FFD580;
+  text-decoration: none;
+}
+
+#soclor {
+  color: #FFD580;
+}
+
+.don {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .header1 {
+    font-size: 2.2rem;
+  }
+
+  .header2 {
+    font-size: 1.3rem;
+  }
+
+  .header3,
+  .don {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .header {
+    padding: 25px 0;
+  }
+
+  .header1 {
+    font-size: 1.5rem;
+  }
+
+  .header2 {
+    font-size: 1rem;
+  }
+
+  .header3,
+  .don {
+    font-size: 0.95rem;
+  }
+}

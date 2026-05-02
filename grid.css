@@ -1,0 +1,127 @@
+.shell2 {
+  border-bottom: 2px solid #B9F2FF;
+  border-top: 2px solid #B9F2FF;
+  max-width: 80rem;
+  margin: 50px auto 0 auto;
+  padding: 10px 20px;
+}
+
+.project_showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem 4rem;
+}
+
+.a {
+  padding: 1.5rem;
+  background-color: #112B26;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title_card {
+  display: flex;
+  border-bottom: 2px solid white;
+  justify-content: space-between;
+  min-height: 40px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.project-image {
+  width: 100%;
+  display: block;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title_card_footer {
+  display: flex;
+  margin-top: auto;
+  border-top: 2px solid white;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.title_card_box_left {
+  color: white;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.title_card_box_right {
+  color: white;
+  font-family: monospace;
+  font-size: 0.88rem;
+}
+
+.title_card_footer_box {
+  border: solid 2px #22227A;
+  padding: 5px;
+  font-weight: 800;
+  color: #B9BFFF;
+  font-size: 0.85rem;
+}
+
+.title_card_footer_link {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.title_card_footer_box_link {
+  border: solid 2px #FF1493;
+  padding: 5px;
+  color: #B9BFFF;
+  font-size: 0.85rem;
+}
+
+.footer_info {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  text-decoration: none;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 1.7rem;
+  padding: 20px;
+  color: white;
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 1024px) {
+  .project_showcase {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2rem;
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 600px) {
+  .project_showcase {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .shell2 {
+    padding: 10px 12px;
+    margin: 20px auto 0 auto;
+  }
+
+  .project-image {
+    height: 180px;
+  }
+
+  .top {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+}

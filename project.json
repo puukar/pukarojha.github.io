@@ -1,0 +1,12 @@
+[
+  {
+    "title": {
+      "left_title": "left_title_2",
+      "right_title": "right_title_3"
+    },
+    "image": "./assests/images/EDV/photo2.png",
+    "body": "man",
+		"tags":["php","java","c","css","html"],
+		"links":["Visit Site","Github"]
+		}
+]
