@@ -27,10 +27,17 @@ async function htmlPutter() {
 
 			const project_showcase_footer_link = clone.querySelector(".title_card_footer_link");
 			result_card.links.forEach(link => {
-				const span = document.createElement("span");
-				span.classList.add("title_card_footer_box_link");
-				span.textContent = link;
-				project_showcase_footer_link.appendChild(span);
+				const a = document.createElement("a");
+				a.classList.add("title_card_footer_box_link");
+				a.textContent = link.text;
+				a.href = link.url;
+				a.target = "_blank";
+				a.rel = "noopener noreferrer";
+				project_showcase_footer_link.appendChild(a);
+				// const span = document.createElement("span");
+				// span.classList.add("title_card_footer_box_link");
+				// span.textContent = link;
+				// project_showcase_footer_link.appendChild(span);
 			});
 
 

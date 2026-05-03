@@ -77,6 +77,8 @@
   padding: 5px;
   color: #B9BFFF;
   font-size: 0.85rem;
+	text-decoration:none;
+	font-weight:800;
 }
 
 .footer_info {

@@ -7,7 +7,7 @@ function loadNavbar(options = {}) {
       <ul>
         <li><a href="index.html">Projects</a></li>
         <li><a href="blog.html">Blogs</a></li>
-        <li><a href="https://github.com">Github</a></li>
+        <li><a href="https://github.com/TerminusHyparxis">Github</a></li>
       </ul>
     </nav>
   `;
