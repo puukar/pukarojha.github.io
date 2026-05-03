@@ -60,6 +60,8 @@
 	color:#FFFFFF;
 	text-align:justify;
 	line-height:1.5;
+  hyphens: auto;       
+	word-break: break-word;
 }
 
 /* Tablet */
