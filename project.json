@@ -5,9 +5,7 @@
       "right_title": "OpenSource"
     },
     "image": "./assests/paint.png",
-    "body": "This is a simple Paint application.This is done by using C and Sdl2.You can select colors option
-		         and drag and draw and paint.Eraser and  Undo are ongoing feature remain to be developed.If anyone
-						 can contribute feel free to contribute to it.",
+    "body": "This is a simple Paint application.This is done by using C and Sdl2.You can select colors option and drag and draw and paint.Eraser and  Undo are ongoing feature remain to be developed.If anyone can contribute feel free to contribute to it.",
 		"tags":["C","SDL2"],
 		"links":["","Github"]
 		}
